@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+#border-radius1 {
+  background-color: pink;
+  height: 200px;
+  width: 200px;
+  writing-mode: vertical-rl;
+  border: 2px solid black;
+  border-radius:0 20px 40px 0 ;
+}
+
+#border-radius2 {
+  background-color: purple;
+  height: 100px;
+  width: 200px;
+  border-start-end-radius: 80px 20px;
+}
+
+#border-radius3 {
+  background-color: greenyellow;
+  height: 100px;
+  width: 200px;
+  border-start-end-radius: 50%;
+  direction: rtl;
+}  
+
+#border-radius4 {
+  background-color: yellow;
+  height: 100px;
+  width: 200px;
+  border-start-end-radius: 50%;
+  writing-mode: vertical-rl;
+}
+#border-radius5{
+    background-color: lightblue;
+    height: 200px;
+    width: 200px;
+    writing-mode: vertical-rl;
+    border: 2px solid black;
+    border-radius: 0 20px 40px 0;
+}
+</style>
+</head>
+<body>
+
+<h2>The border-start-end-radius property</h2>
+<p>The border-start-end-radius CSS property defines a logical border 
+    radius on an element, which maps to a physical border
+     radius depending on the element's writing-mode , direction , and text-orientation.</p>
+rad
+<div id="border-radius1">
+  <p>border-start-end-radius: 50px;</p>
+</div>
+<br>
+
+<div id="border-radius2">
+  <p>border-start-end-radius: 50px 20px;</p>
+</div>
+<br>
+
+<div id="border-radius3">
+  <p>border-start-end-radius: 50% and direction: rtl</p>
+</div>
+<br>
+
+<div id="border-radius4">
+  <p>border-start-end-radius: 50% and writing mode: vertical-rl;</p>
+</div>
+
+<h1>border-start-start-radius:25px</h1>
+<div id="border-radius5">
+    <p>border-start-end-radius: 50% and writing mode: vertical-rl;</p>
+  </div>
+</body>
+</html>
